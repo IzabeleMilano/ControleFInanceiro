@@ -12,7 +12,7 @@ require_once '../DAO/utilDAO.php';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Financeiro</a>
+        <a class="navbar-brand" href="inicial.php">Financeiro</a>
     </div>
     <div style="color: white;
 padding: 15px 50px 5px 50px;

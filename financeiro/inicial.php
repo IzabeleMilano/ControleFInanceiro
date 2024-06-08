@@ -45,7 +45,7 @@ $movs = $dao->FiltrarUltimoLancamento();
                     <div class="panel panel-primary text-center no-boder bg-color-green">
                         <div class="panel-body">
                             <i class="fa fa-bar-chart-o fa-5x"></i>
-                            <h3>R$ <?= $total_entrada[0]['total'] != null ? number_format($total_entrada[0]['total'], 2, ' , ' . ' . ') : '0' ?> </h3>
+                            <h3>R$ <?= $total_entrada[0]['total'] != null ? number_format($total_entrada[0]['total'], 2, ' , ' ) : '0' ?> </h3>
                         </div>
                         <div class="panel-footer back-footer-green">
                             TOTAL DE ENTRADA
@@ -57,7 +57,7 @@ $movs = $dao->FiltrarUltimoLancamento();
                     <div class="panel panel-primary text-center no-boder bg-color-red">
                         <div class="panel-body">
                             <i class="fa fa fa-bar-chart-o fa-5x"></i>
-                            <h3>R$ <?= $total_saida[0]['total'] != '' ? number_format($total_saida[0]['total'], 2, ' , ' . ' . ') : '0' ?> </h3>
+                            <h3>R$ <?= $total_saida[0]['total'] != '' ? number_format($total_saida[0]['total'], 2, ' , ' ) : '0' ?> </h3>
                         </div>
                         <div class="panel-footer back-footer-red">
                             TOTAL DE SAÍDA
