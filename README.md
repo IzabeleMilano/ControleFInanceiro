@@ -37,13 +37,3 @@ Conexão Direta com o Banco de Dados: Todas as informações são armazenadas e 
 
 Este projeto visa proporcionar uma experiência intuitiva e eficiente para o usuário, auxiliando-o no controle de suas finanças de forma organizada e prática.
 
-
-
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-
-<!--END_SECTION:footer-->
